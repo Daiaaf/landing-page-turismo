@@ -1,84 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Turismo em Salvador</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Turístico - Conheça Nossos Destinos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- CABEÇALHO DA PÁGINA -->
+    <header>
+        <h1>Local Turístico</h1>
+    </header>
 
-  <!-- Cabeçalho -->
-  <header class="header">
-    <h1>Turismo em Salvador</h1>
-    <p class="headline">Sua próxima viagem começa aqui</p>
-  </header>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <!-- SEÇÃO DE INTRODUÇÃO -->
+        <section class="intro">
+            <h2>Sua próxima viagem</h2>
+            <p>Bem-vindo ao nosso guia de destinos turísticos! Explore os lugares mais incríveis e descubra experiências inesquecíveis. Cada local foi cuidadosamente selecionado para oferecer o melhor em beleza natural, cultura e aventura.</p>
+        </section>
 
-  <main>
+        <!-- DIVISOR -->
+        <div class="divider"></div>
 
-    <!-- Seção de introdução -->
-    <section class="intro">
-      <h2>Conheça Salvador</h2>
-      <p>
-        Salvador é uma cidade vibrante, cheia de história, cultura e belezas naturais.
-        Conhecida por suas praias, culinária típica e pelo famoso Pelourinho,
-        é um dos destinos mais encantadores do Brasil.
-      </p>
+        <!-- SEÇÃO DE IMAGEM PRINCIPAL -->
+        <section class="featured-image">
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=400&fit=crop" alt="Paisagem turística incrível">
+            <p class="image-caption">Descubra paisagens que vão transformar sua perspectiva de viagem</p>
+        </section>
 
-      <figure class="image-highlight">
-       <img src="imagens/salvador-vista.jpg" alt="Vista de Salvador">
-        <figcaption>Vista do Elevador Lacerda e do Mercado Modelo</figcaption>
-      </figure>
-    </section>
+        <!-- DIVISOR -->
+        <div class="divider"></div>
 
-    <div class="divider"></div>
+        <!-- SEÇÃO DE DESTAQUES/ATRAÇÕES -->
+        <section class="attractions">
+            <h2>Descubra 3 destinos imperdíveis</h2>
+            <p>Conheça os principais pontos turísticos que não podem faltar na sua próxima viagem. Cada destino oferece uma experiência única e memorável.</p>
 
-    <!-- Seção de destaques -->
-    <section class="highlights">
-      <h2>Descubra 3 destinos imperdíveis em Salvador</h2>
-      <p>
-        A cidade oferece atrações para todos os gostos, desde pontos históricos
-        até praias paradisíacas. Confira alguns dos principais destaques:
-      </p>
+            <!-- CONTAINER DAS ATRAÇÕES -->
+            <div class="attractions-container">
+                <!-- ATRAÇÃO 1 -->
+                <article class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Montanha com vista panorâmica">
+                    <h3>Montanhas Majestosas</h3>
+                    <p>Explore as montanhas mais altas e desfrute de vistas panorâmicas que vão deixar você sem palavras. Perfeito para trilhas e contemplação da natureza.</p>
+                </article>
 
-      <div class="cards">
+                <!-- ATRAÇÃO 2 -->
+                <article class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop" alt="Praia com areia branca">
+                    <h3>Praias Paradisíacas</h3>
+                    <p>Relaxe nas praias mais bonitas com areia branca e águas cristalinas. Ideal para banho, mergulho e momentos de tranquilidade à beira-mar.</p>
+                </article>
 
-        <article class="card">
-          <img src="imagens/pelourinho.jpg" alt="Pelourinho">
-          <h3>Pelourinho</h3>
-          <p>
-            O coração histórico de Salvador, com casarões coloridos,
-            igrejas centenárias e muita cultura afro-brasileira.
-          </p>
-        </article>
+                <!-- ATRAÇÃO 3 -->
+                <article class="attraction-card">
+                    <img src="https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=400&h=300&fit=crop" alt="Floresta verde exuberante">
+                    <h3>Florestas Tropicais</h3>
+                    <p>Mergulhe na exuberância da natureza com trilhas pela floresta tropical. Descubra a biodiversidade e a magia da vida selvagem em seu habitat natural.</p>
+                </article>
+            </div>
+        </section>
+    </main>
 
-        <article class="card">
-          <img src="imagens/farol-barra.jpg" alt="Farol da Barra">
-          <h3>Farol da Barra</h3>
-          <p>
-            Um dos cartões-postais da cidade, perfeito para apreciar
-            o pôr do sol e caminhar à beira-mar.
-          </p>
-        </article>
-
-        <article class="card">
-          <img src="imagens/porto-barra.jpg" alt="Porto da Barra">
-          <h3>Porto da Barra</h3>
-          <p>
-            Praia urbana com águas calmas e cristalinas,
-            ideal para banho e lazer.
-          </p>
-        </article>
-
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Rodapé -->
-  <footer class="footer">
-    <p>© 2025 - Landing Page de Turismo | Desenvolvido para fins educacionais</p>
-  </footer>
-
+    <!-- RODAPÉ DA PÁGINA -->
+    <footer>
+        <p>&copy; 2025 Local Turístico. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
