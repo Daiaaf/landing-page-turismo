@@ -100,7 +100,7 @@ main {
     border-radius: 28px;
     object-fit: cover;
     margin-bottom: 20px;
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
