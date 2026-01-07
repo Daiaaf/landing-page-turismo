@@ -101,6 +101,8 @@ main {
     object-fit: cover;
     margin-bottom: 20px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-caption {
